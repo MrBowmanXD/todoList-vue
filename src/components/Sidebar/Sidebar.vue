@@ -9,11 +9,13 @@
 
 <script>
   import SideMenuItem from './SideMenu/SideMenuItem.vue';
+  import Projects from './SideMenu/Projects/Projects.vue';
 
 export default {
   name: 'Sidebar',
   components: {
-    SideMenuItem
+    SideMenuItem,
+    Projects
   },
   data () {
     return {
